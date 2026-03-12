@@ -1,5 +1,5 @@
 # Hybrid Geofencing and Time-Based Reminder App
-
+Android | Java | Geofencing | Google Maps SDK | AlarmManager
 ## Overview
 This project is an Android application that provides reminders based on both **location** and **time**. The system combines **geofencing technology** with **time scheduling** to ensure that reminders are triggered when either the user reaches a specific location or the scheduled time occurs.
 
