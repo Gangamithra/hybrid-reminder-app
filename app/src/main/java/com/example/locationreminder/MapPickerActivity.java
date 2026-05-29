@@ -33,7 +33,6 @@ public class MapPickerActivity extends AppCompatActivity implements OnMapReadyCa
         etSearch = findViewById(R.id.etSearch);
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         if (mapFragment != null) mapFragment.getMapAsync(this);
-
         // Search Button Logic
         findViewById(R.id.btnSearch).setOnClickListener(v -> geoLocate());
 
